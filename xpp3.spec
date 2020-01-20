@@ -3,7 +3,7 @@
 Summary:        XML Pull Parser
 Name:           xpp3
 Version:        1.1.3.8
-Release:        10%{?dist}
+Release:        11%{?dist}
 Epoch:          0
 License:        ASL 1.1
 URL:            http://www.extreme.indiana.edu/xgws/xsoap/xpp/mxp1/index.html
@@ -91,6 +91,9 @@ cp -pr doc/api/* %{buildroot}%{_javadocdir}/%{name}
 %doc %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.1.3.8-11
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.1.3.8-10
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
